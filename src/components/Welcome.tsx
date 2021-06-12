@@ -25,7 +25,7 @@ const Welcome=()=>{
                 alignItems="center"
                 justifyContent="center"
                 padding="m">
-                    <Image source={welcomeAssets} style={{flex:1}}></Image>
+                    <Image source={welcomeAssets} style={{flex:1}} resizeMode="contain"></Image>
                 </Box>
             </Box>
         </Box>
