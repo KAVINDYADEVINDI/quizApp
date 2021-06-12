@@ -34,9 +34,17 @@ const theme={
         body:{
             fontSize:16,
             lineHeight:25,
-            
-        }
-    }
+            fontFamily:"Gotham-Medium",
+            color:"text",
 
+        },
+        button:{
+            fontSize:15,
+            fontFamily:"Gotham-Bold",
+            color:"text",
+        },
+        breakpoints:{},
+    },
 
-}
+};
+export type
