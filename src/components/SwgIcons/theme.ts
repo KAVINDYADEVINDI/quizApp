@@ -1,4 +1,4 @@
-import {createText,createBox} from '@shopify/restyle';
+import {createText,createBox, BaseTheme} from '@shopify/restyle';
 import {moderateScale} from "react-native-size-matters";
 
 const theme={
@@ -48,6 +48,6 @@ const theme={
 
 };
 export type Theme=typeof theme;
-export const Text = createText<Theme>();
-export const Box = createBox<Theme>();
+export const Text = createText<BaseTheme>();
+export const Box = createBox<BaseTheme>();
 export default theme;
